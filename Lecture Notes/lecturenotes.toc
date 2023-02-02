@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {1.5.1}Sampling Variance of Estimators}{5}{subsection.1.5.1}%
 \contentsline {paragraph}{Summary}{5}{section*.2}%
 \contentsline {subsection}{\numberline {1.5.2}Which estimator is better?}{5}{subsection.1.5.2}%
-\contentsline {section}{\numberline {1.6}Consistency}{5}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Example}{5}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}Importance of Consistency}{5}{subsection.1.6.2}%
-\contentsline {subsection}{\numberline {1.6.3}Law of Large Number}{5}{subsection.1.6.3}%
+\contentsline {section}{\numberline {1.6}Consistency}{6}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Example}{6}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Importance of Consistency}{6}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Law of Large Number}{6}{subsection.1.6.3}%

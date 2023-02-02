@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1675255478 "c:/Users/rodmi/OneDrive - University of Aberdeen/University/Year 5 - Financial Technology/BU551V - Applied Econometrics/Lecture Notes/lecturenotes.tex" "lecturenotes.pdf" "lecturenotes" 1675255480
+["pdflatex"] 1675348618 "c:/Users/rodmi/OneDrive - University of Aberdeen/University/Year 5 - Financial Technology/BU551V - Applied Econometrics/Lecture Notes/lecturenotes.tex" "lecturenotes.pdf" "lecturenotes" 1675348620
   "C:/Users/rodmi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1674997264 23063 7b9b4c90c7782748e1ffd9ab7b72b3c0 ""
   "C:/Users/rodmi/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1674932722 12668 c8a265a187f3b5f5070bfcb96fba17db ""
   "C:/Users/rodmi/AppData/Local/MiKTeX/fonts/pk/ljfour/public/cm/dpi1037/cmbx12.pk" 1674929353 27296 6edcbe3a29cc200b64adfa386f93e10f ""
@@ -77,11 +77,12 @@
   "C:/Users/rodmi/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/rodmi/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657797096 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/rodmi/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/rodmi/OneDrive - University of Aberdeen/University/Year 5 - Financial Technology/BU551V - Applied Econometrics/Lecture Notes/lecturenotes.tex" 1675255474 5917 92ad99435ae07b23b75c5cc2d831c20b ""
-  "lecturenotes.aux" 1675255480 3109 66e1320a5a91509f5a715eb4db882baf "pdflatex"
-  "lecturenotes.out" 1675255480 2959 0f04dd22981fd2e0d50541fd53f61485 "pdflatex"
-  "lecturenotes.tex" 1675255474 5917 92ad99435ae07b23b75c5cc2d831c20b ""
-  "lecturenotes.toc" 1675255480 1659 92cc523b090793302110e0d8e206a8d5 "pdflatex"
+  "c:/Users/rodmi/OneDrive - University of Aberdeen/University/Year 5 - Financial Technology/BU551V - Applied Econometrics/Lecture Notes/lecturenotes.tex" 1675348617 5890 026843db386463b93f7c5ebe71d70bea ""
+  "images/unbiasedness.png" 1675251891 22480 c13bfaa1372936559eb7dad37c028736 ""
+  "lecturenotes.aux" 1675348620 3409 c023683b65fc23e9f8ddc33dffd8e218 "pdflatex"
+  "lecturenotes.out" 1675348620 2959 0f04dd22981fd2e0d50541fd53f61485 "pdflatex"
+  "lecturenotes.tex" 1675348617 5890 026843db386463b93f7c5ebe71d70bea ""
+  "lecturenotes.toc" 1675348620 1659 f5aaf9af369f6ac1db6dad101d67c3a1 "pdflatex"
   (generated)
   "lecturenotes.aux"
   "lecturenotes.log"

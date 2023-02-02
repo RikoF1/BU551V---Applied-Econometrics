@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  1 FEB 2023 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.9)  2 FEB 2023 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -235,22 +235,32 @@ l.26 \chapter
 Chapter 1.
 [2
 
-] [3] [4] [5] (lecturenotes.aux)
+] [3]
+<images/unbiasedness.png, id=128, 444.66125pt x 314.17375pt>
+File: images/unbiasedness.png Graphic file (type png)
+<use images/unbiasedness.png>
+Package pdftex.def Info: images/unbiasedness.png  used on input line 98.
+(pdftex.def)             Requested size: 360.0pt x 254.35469pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./images/unbiasedness.png (PNG copy)>] [6] (lecturenotes.aux)
 Package rerunfilecheck Info: File `lecturenotes.out' has not changed.
 (rerunfilecheck)             Checksum: 0F04DD22981FD2E0D50541FD53F61485;2959.
  ) 
 Here is how much of TeX's memory you used:
- 8274 strings out of 477314
- 134513 string characters out of 2827706
- 470584 words of memory out of 3000000
- 29302 multiletter control sequences out of 15000+600000
+ 8287 strings out of 477314
+ 134750 string characters out of 2827706
+ 470666 words of memory out of 3000000
+ 29310 multiletter control sequences out of 15000+600000
  476329 words of font info for 51 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  72i,6n,77p,451b,498s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmr6.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmsy10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmmi8.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmr8.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmmi10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmbx12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmti10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi720\cmbx12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi1037\cmbx12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmr10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi657\cmbx10.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi1244\cmbx12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmr12.pk> <C:\Users\rodmi\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cm/dpi600\cmr17.pk>
-Output written on lecturenotes.pdf (6 pages, 126511 bytes).
+Output written on lecturenotes.pdf (7 pages, 150264 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 478 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

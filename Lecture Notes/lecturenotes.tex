@@ -2,7 +2,7 @@
 %\fontfamily{cmss}
 \hfuzz=9999pt % "fix" hbox overfull
 %Path relative to the .tex file containing the \includegraphics command
-\usepackage{graphicx}\graphicspath{{images/}}
+\usepackage{graphicx}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -52,7 +52,7 @@ Is used when we want to learn about a population given a sample/subset.
 \subsection{Random Sample}
 A \textbf{Random Sample} is a set of random variables (RVs) that follow a probability density function (pdf) $f(y,\theta)$.
 \\When the RVs are from a random sample with $f(y,\theta)$ density, they are said to be \textbf{independent and identically distributed}.
-\\Random samples can be assumed to be drawn from a normal distribution. It's population can be characterized by two parameters:
+\\Random samples can be assumed to be drawn from a normal distribution. Its population can be characterized by two parameters:
 \begin{itemize}
     \item Mean $\mu$;
     \item Variance $\sigma^2$.
@@ -93,12 +93,12 @@ An estimator of $\theta$, W, is a biased estimator if:
 Its bias is defined as:
 \[Bias(W) \equiv E(W) - \theta\]
 
-% \begin{figure}[ht]
-%     \includegraphics[width=\textwidth]{unbiasedness}
-%     \caption{An unbiased estimator W, and an estimator with positive bias, $W_2$.}
-%     \label{Unbiasedness}
-%     \centering
-% \end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{images/unbiasedness.png}
+    \caption{An unbiased estimator W, and an estimator with positive bias, $W_2$.}
+    \label{Unbiasedness}
+\end{figure}
 
 \begin{itemize}
     \item An estimator being unbiased does not necessarily mean it's a good estimator.
