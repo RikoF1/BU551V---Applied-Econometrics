@@ -23,7 +23,7 @@
 \maketitle
 \tableofcontents
 
-\chapter{Lecture 1}
+\chapter{Introduction to Applied Econometrics}
 \section{What is statistics?}
 Statistics is the science of uncertainty.
 \begin{itemize}
@@ -130,6 +130,97 @@ Consistency, is a property that captures how estimators improve as the sample si
 \subsection{Importance of Consistency}
 Consistency is a minimum requirement of an estimator used in econometrics.
 \subsection{Law of Large Number}
+The result that $\overline{Y}$ is consistent for $\mu$  is known as the \textbf{law of large numbers} (LLN):
+\[plim(\overline{Y}) = \mu\]
+
+\chapter{Point Estimation}
+\section{Terminology and Notation}
+\subsection{Estimator vs. Estimate}
+\begin{itemize}
+    \item Estimator is \underline{a formula};
+    \item Estimate is \underline{a value}.
+    \item Suppose {$Y_1$, ..., $Y_n$} is a random sample from the population with mean $\mu$.
+    \begin{itemize}
+        \item An example of an \textbf{estimator} is the sample average $\overline{Y}$:
+        \[ \overline{Y} = \frac{1}{n} \displaystyle\sum_{i=1}^{n} Y_i \]
+        \item Using a sample, the actual value of $\overline{Y}$ can be calculated.
+        \item Using this, \[\overline{y} = \frac{1}{3}(16 + 8 + 21) = 15\], \textit{15} is the \textbf{estimate}.
+    \end{itemize}
+\end{itemize}
+\subsection{Notations}
+\begin{itemize}
+    \item \underline{Upper case} is used to denote an estimator.
+    \begin{itemize}
+        \item Which itself is a random variable.
+        \item Example: $W$, $\overline{Y}$, $S_X$, $S_{XY}$. 
+    \end{itemize}
+    \item After obtaining a sample, you can calculate an estimate.
+    \item \underline{Lower case} is used to denote an estimate.
+    \begin{itemize}
+        \item Example: $w$, $overline{y}$, $s_X$, $s_{XY}$.
+    \end{itemize}
+\end{itemize}
+\section{Maximum Likelihood and Least Squares}
+\subsection{Maximum likelihood}
+\begin{itemize}
+    \item Suppose {$Y_1$, ... $Y_n$} is a random smample from the population distribution, f(Y; $\theta$).
+    \item As Yi is a random sample from f(y;$\theta$), the joint distribution of {$Y_1$, ..., $Y_n$} is:
+    \[f(Y_1;\theta) \times f(Y_2;\theta) \times ... \times f(Y_n; \theta)\]
+    \item Using this, define the likelihood function as:
+    \[L(\theta; Y_1, ..., Y_n) = f(Y_1;\theta) \times f(Y_2; \theta) \times ... \times f(Y_n; \theta)\]
+    \item The maximum likelihood estimator (MLE) of $\theta$, call it W, chooses the value of $\theta$ that maximises the likelihood function.
+    \item For a practical reason, it is more convenient to work with the log-likelihood function.
+    \item The MLE is known to be:
+    \begin{itemize}
+        \item Consistent and sometimes unbiases;
+        \item Asymptotically efficient.
+    \end{itemize}
+    \item We will need maximum likelihood to estimate the parameters of advanced econometric models.
+\end{itemize}
+\subsection{Least Squares}
+\begin{itemize}
+    \item The second estimator is called \textbf{least squares estimator};
+    \item Suppose {$Y_1$, ..., $Y_n$ is a random sample from the population iwth mean $\mu$};
+    \item Objective - We want to estimate $\mu$ using the sample;
+    \item How? - The least squares estimator choose the value of \textit{m} that makes the sum of squared deviations as small as possible;
+    \item Solving this for \textbf{m} gives:
+    \[m = \frac{1}{n}\sum_{i=1}^{n}Y_i = \overline{Y}\]
+    \begin{itemize}
+        \item whch is simply the sample average.
+    \end{itemize}
+    \item For many distributions, such as the normal distribution, the sample average $\overline{Y}$ is also the MLE of $\mu$;
+    \item Thus, the principles of least squares and maximum likelihood often result in the same estimator.
+\end{itemize}
+\section{Method of Moments}
+\begin{itemize}
+    \item Usually, the parameter to be estimated, $\theta$, is shown to be related to some expected value in the distribution of $Y$, such as $E(Y)$. Using this, the method of moments estimation proceeds as follows.
+    \item Suppose that $\theta$ is related to the population mean as:
+    \[\theta = g(\mu)\] for some function g.
+    \item To estimate $\theta$, it is natural to replace $\mu$ with $\overline{Y}$, which gives us the estimator of $\mu$:
+    \[g(\overline{Y})\]
+    \item Summary - What we are doing is replacing the population moment, $\mu$, with its sample counterpart, $\overline(Y)$.
+\end{itemize}
+\subsection{Sample Covariance}
+\begin{itemize}
+    \item The covariance between two random variables, X and Y, is defined as:
+    \[\sigma_{XY} = E[(X-\mu_X)(Y - \mu_Y)]\]
+    \item Method of moments suggests replacing population moments with their sample counterparts:
+    \[\sum_{i=1}^{n}\frac{(X_i - \overline{X})(Y_i-\overline{Y})}{n} = \frac{1}{n}\times \sum_{i=1}^{n}(X_i - \overline{X})(Y_i - \overline{Y})\]
+    \begin{itemize}
+        \item This is a consistent estimator of $\sigma_{XY}$.
+    \end{itemize}
+    \item It can be shown (even though we don't) that replacing $n$ with $n-1$ yields an unbiased (and consistent) estimator of $\sigma_{XY}$:
+    \[S_{XY} = \frac{1}{n-1} \times \sum_{i=1}^{n} (X_i - \overline{X})(Y_i - \overline{Y})\]
+\end{itemize}
+\subsection{Sample correlation coefficient}
+\begin{itemize}
+    \item The population correlation is defined as:
+    \[\rho = \frac{\sigma_{XY}}{\sigma_X\sigma_Y}\]
+    \item The method of moments suggests estimating $\rho_{XY}$ by replacing population moments with their sample counterparts;
+    \begin{itemize}
+        \item Called "sample correlation coefficient".
+    \end{itemize}
+\end{itemize}
 
 
 \end{document}

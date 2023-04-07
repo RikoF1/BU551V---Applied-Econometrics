@@ -481,6 +481,8 @@ INPUT .\images\unbiasedness.png
 INPUT lecturenotes.aux
 INPUT .\lecturenotes.out
 INPUT .\lecturenotes.out
+INPUT C:\Users\rodmi\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cm\dpi600\cmex10.pk
+INPUT C:\Users\rodmi\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cm\dpi600\cmex10.pk
 INPUT C:\Users\rodmi\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cm\dpi600\cmr6.pk
 INPUT C:\Users\rodmi\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cm\dpi600\cmr6.pk
 INPUT C:\Users\rodmi\AppData\Local\MiKTeX\fonts\pk\ljfour\public\cm\dpi657\cmsy10.pk
